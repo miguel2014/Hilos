@@ -11,6 +11,10 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class SinHilos extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	//Variables de instancia
 	private JButton boton;
 	private Choice combo;
