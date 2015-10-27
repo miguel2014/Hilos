@@ -6,6 +6,7 @@ public class ConParametros {
 		System.out.println("Comienzo del programa principal");
 		HilosconThread hilo=new HilosconThread();
 		int tamaño=Integer.parseInt(args[0]);
+		
 		if (args.length>0) {
 		hilo.start();
 		}
@@ -20,8 +21,5 @@ class HilosconThread extends Thread{
 	@Override
 	public void run() {
 
-		for (int i = 0; i < tamaño; i++) {
-			System.out.print(i+" ");
-		}
 	}
 }
